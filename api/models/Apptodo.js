@@ -21,11 +21,7 @@ module.exports = {
       required: true,
       columnName: 'body',
     },
-    isDone: {
-      type: 'boolean',
-      defaultsTo: false,
-      columnName: 'is_done',
-    },
+   
   },
 
 };

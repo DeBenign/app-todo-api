@@ -30,9 +30,9 @@ module.exports = {
 
 
   fn: async function (inputs, exits) {
-
+    console.log("seeing in add ")
     try {
-      let addRecord = await apptodo.create({
+      let addRecord = await Apptodo.create({
       title: inputs.title,
       body: inputs.body
     }).fetch();

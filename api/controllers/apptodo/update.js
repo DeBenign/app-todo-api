@@ -49,7 +49,7 @@ module.exports = {
 
   fn: async function (inputs, exits) {
   try {
-    const found = await apptodo.findOne({
+    const found = await Apptodo.findOne({
       id: inputs.id
     })
 
@@ -59,7 +59,7 @@ module.exports = {
       });
     }
 
-    const updatedTodo  = await apptodo.updateOne({
+    const updatedTodo  = await Apptodo.updateOne({
       id: inputs.id
   }).set({title: inputs.title, body:inputs.body, isDone:inputs.isDone})
 

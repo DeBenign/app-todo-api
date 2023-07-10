@@ -26,9 +26,9 @@ module.exports = {
 
   fn: async function (_, exits) {
     try{
-      const list =await apptodo.find()
+      const list =await Apptodo.find()
 
-      return exits.succes({
+      return exits.success({
         status: 'OK',
         data: list
       })
@@ -41,7 +41,7 @@ module.exports = {
       })
     }
     // All done.
-    return lsit;
+    return list;
 
   }
 

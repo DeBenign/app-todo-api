@@ -19,7 +19,7 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  // '/': { view: 'pages/homepage' },
+  
   'POST /apptodo/add' : 'apptodo/add',
   'GET /apptodo/list' : 'apptodo/list',
   'PATCH /apptodo/:id' : 'apptodo/update',

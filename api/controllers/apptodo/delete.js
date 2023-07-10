@@ -34,8 +34,8 @@ module.exports = {
 
   fn: async function ({id}, exits) {
     try {
-      const found = await apptodo.findOne({
-        id
+      const found = await Apptodo.findOne({
+        id: inputs.id
       })
 
       if (!found) {
@@ -45,7 +45,7 @@ module.exports = {
       }
 
         await Todo.destroyOne({
-          id
+          id: inputs.id
         })
     
         return exits.success({

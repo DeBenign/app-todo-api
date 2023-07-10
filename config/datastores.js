@@ -48,8 +48,7 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    // adapter: require('sails-postgresql'),
-    // url: 'postgres://postgres:apptodo1@localhost:5432/apptodo',
+   adapter: 'sails-mongo',
 
 
   },
