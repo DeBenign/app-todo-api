@@ -265,7 +265,7 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    onlyAllowOrigins: [process.env.APP_URL],
+    onlyAllowOrigins: ['https://app.cyclic.sh'],
 
 
     /***************************************************************************
@@ -386,8 +386,8 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'https://dull-pink-salamander-tux.cyclic.app/',
-    internalEmailAddress: 'support@example.com',
+    // baseUrl: 'https://dull-pink-salamander-tux.cyclic.app/',
+    // internalEmailAddress: 'support@example.com',
 
     // sendgridSecret: 'SG.fake.3e0Bn0qSQVnwb1E4qNPz9JZP5vLZYqjh7sn8S93oSHU',
     // stripeSecret: 'sk_prod__fake_Nfgh82401348jaDa3lkZ0d9Hm',
